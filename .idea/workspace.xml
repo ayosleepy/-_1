@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 4">
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/book_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/book_list.html" afterDir="false" />
+    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 6 ne do konca">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="locallibrary" type="Python.DjangoServer" factoryName="Django server">
       <module name="locallibrary" />
@@ -111,7 +111,8 @@
       <workItem from="1762926383283" duration="1874000" />
       <workItem from="1762929115882" duration="1755000" />
       <workItem from="1762997406406" duration="2123000" />
-      <workItem from="1763000737892" duration="13319000" />
+      <workItem from="1763000737892" duration="13898000" />
+      <workItem from="1763083722971" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -145,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763001097220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="part 6 ne do konca">
+      <option name="closed" value="true" />
+      <created>1763016515268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763016515268</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="part 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 4" />
+    <MESSAGE value="part 6 ne do konca" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 6 ne do konca" />
   </component>
 </project>
