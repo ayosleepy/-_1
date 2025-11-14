@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 6 ne do konca">
+    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 6 ispravit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/base_generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,7 @@
       <workItem from="1762929115882" duration="1755000" />
       <workItem from="1762997406406" duration="2123000" />
       <workItem from="1763000737892" duration="13898000" />
-      <workItem from="1763083722971" duration="2918000" />
+      <workItem from="1763083722971" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -154,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763016515268</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="part 6 ispravit">
+      <option name="closed" value="true" />
+      <created>1763087057338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763087057338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +176,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="part 4" />
     <MESSAGE value="part 6 ne do konca" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 6 ne do konca" />
+    <MESSAGE value="part 6 ispravit" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 6 ispravit" />
   </component>
 </project>
