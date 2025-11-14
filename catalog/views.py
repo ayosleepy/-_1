@@ -2,6 +2,15 @@ from django.shortcuts import render
 
 from .models import Book, Author, BookInstance, Genre
 
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+from django.views import View
+
+class MyView(LoginRequiredMixin, View):
+    login_url = '/login/'
+    redirect_field_name = 'redirect_to'
+
+
 def index(request):
 
     # Генерация "количеств" некоторых главных объектов
