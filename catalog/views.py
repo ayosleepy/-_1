@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from .models import Book, Author, BookInstance, Genre
-from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.contrib.auth.decorators import permission_required
 from django.shortcuts import get_object_or_404
@@ -12,11 +11,22 @@ from django.views import generic
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 
+class BookCreate(CreateView):
+    model = Book
+    fields = '__all__'
+
+class BookUpdate(UpdateView):
+    model = Book
+    fields = ['Title','Author','Summary','ISBN', 'Genre', 'Language']
+
+class BookDelete(DeleteView):
+    model = Book
+    success_url = reverse_lazy('books')
+
 class AuthorCreate(CreateView):
     model = Author
     fields = '__all__'
     initial={'date_of_death':'12/10/2016',}
-
 class AuthorUpdate(UpdateView):
     model = Author
     fields = ['first_name','last_name','date_of_birth','date_of_death']

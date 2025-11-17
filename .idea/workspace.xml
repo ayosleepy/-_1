@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 9 1/2">
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/author_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/book_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/book_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
@@ -55,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "#1 on main",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -219,6 +219,7 @@
     <MESSAGE value="part 8 passwords" />
     <MESSAGE value="part 8 full" />
     <MESSAGE value="part 9 1/2" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 9 1/2" />
+    <MESSAGE value="part 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 9" />
   </component>
 </project>
