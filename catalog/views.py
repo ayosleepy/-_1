@@ -8,6 +8,22 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 import datetime
 from .forms import RenewBookForm
+from django.views import generic
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.urls import reverse_lazy
+
+class AuthorCreate(CreateView):
+    model = Author
+    fields = '__all__'
+    initial={'date_of_death':'12/10/2016',}
+
+class AuthorUpdate(UpdateView):
+    model = Author
+    fields = ['first_name','last_name','date_of_birth','date_of_death']
+
+class AuthorDelete(DeleteView):
+    model = Author
+    success_url = reverse_lazy('authors')
 @permission_required('catalog.can_mark_returned')
 def renew_book_librarian(request, pk):
     """
@@ -78,7 +94,6 @@ def index(request):
         'index.html',
         context={'num_books':num_books,'num_instances':num_instances,'num_instances_available':num_instances_available,'num_authors':num_authors, 'num_genre':num_genre, 'num_visits':num_visits},
     )
-from django.views import generic
 
 class BookListView(generic.ListView):
     model = Book
