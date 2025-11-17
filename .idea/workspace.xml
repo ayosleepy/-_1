@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 8 passwords">
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/all_borrowed_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/bookinstance_list_borrowed_user.html" afterDir="false" />
+    <list default="true" id="fe3e6c43-9417-48de-9cd8-4ea76a3bde91" name="Changes" comment="part 8 full">
+      <change afterPath="$PROJECT_DIR$/catalog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/templates/catalog/book_renew_librarian.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/templates/base_generic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -121,7 +118,8 @@
       <workItem from="1763000737892" duration="13898000" />
       <workItem from="1763083722971" duration="7874000" />
       <workItem from="1763093830744" duration="7286000" />
-      <workItem from="1763170297983" duration="9966000" />
+      <workItem from="1763170297983" duration="11675000" />
+      <workItem from="1763343209720" duration="1159000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763100033407</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="part 8 full">
+      <option name="closed" value="true" />
+      <created>1763180397436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763180397436</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +207,7 @@
     <MESSAGE value="part 6 ispravit" />
     <MESSAGE value="part 7" />
     <MESSAGE value="part 8 passwords" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 8 passwords" />
+    <MESSAGE value="part 8 full" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 8 full" />
   </component>
 </project>
