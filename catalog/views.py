@@ -13,7 +13,6 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django.views import View
 
-
 class BookCreate(CreateView):
     model = Book
     fields = '__all__'
