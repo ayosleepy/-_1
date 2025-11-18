@@ -8,7 +8,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Добавление дополнительного статического CSS файла -->
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
   </head>
@@ -24,9 +23,9 @@
               <li><a href="{% url 'authors' %}">All authors</a></li>
             {% if user.is_authenticated %}
      <li>User: {{ user.get_username }}</li>
-     <li><a href="{% url 'my-borrowed' %}">Мои книги</a></li>
+     <li><a href="{% url 'my-borrowed' %}">My books</a></li>
      {% if perms.catalog.can_mark_returned %}
-       <li><a href="{% url 'all-borrowed' %}">Все взятые книги</a></li>
+       <li><a href="{% url 'all-borrowed' %}">All borrowed books</a></li>
      {% endif %}
      <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
    {% else %}

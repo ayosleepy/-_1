@@ -1,7 +1,4 @@
 from django.test import TestCase
-
-# Создайте ваши тесты здесь
-
 import datetime
 from django.utils import timezone
 from catalog.forms import RenewBookForm
@@ -10,7 +7,7 @@ class RenewBookFormTest(TestCase):
 
     def test_renew_form_date_field_label(self):
         form = RenewBookForm()
-        self.assertTrue(form.fields['renewal_date'].label == None or form.fields['renewal_date'].label == 'renewal date')
+        self.assertTrue(form.fields['renewal_date'].label is None or form.fields['renewal_date'].label == 'renewal date')
 
     def test_renew_form_date_field_help_text(self):
         form = RenewBookForm()
