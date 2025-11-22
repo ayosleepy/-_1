@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = 'django-insecure-bn)y^la)b3%ix4ioap+u(mzsao=rwwdtvi@pc&wog)8_-9=#zg'
@@ -88,9 +87,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
 
 STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
